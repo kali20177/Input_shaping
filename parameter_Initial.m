@@ -2,8 +2,8 @@
 
 clear;clc;close all;
 ts = 0.01;
-wn = 5;
-zeta = 0.1;
+wn = 2.6968e+03;
+zeta = 0.24;
 td = pi / (wn * sqrt(1 - zeta^2));
 K = exp((-zeta * pi) / (sqrt(1 - zeta^2)));
 %第一个幅值A1 第二个A2

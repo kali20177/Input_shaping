@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/28626/Desktop/输入整形实现/Inputshaping/cmake-build-debug/
+cmake_ninja_workdir = E$:/输入整形实现/Inputshaping/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target Inputshaping
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = C$:/Users/28626/Desktop/输入整形实现/Inputshaping/cmake-bu
 
 build cmake_object_order_depends_target_Inputshaping: phony || CMakeFiles/Inputshaping.dir
 
-build CMakeFiles/Inputshaping.dir/main.cpp.obj: CXX_COMPILER__Inputshaping_Debug C$:/Users/28626/Desktop/输入整形实现/Inputshaping/main.cpp || cmake_object_order_depends_target_Inputshaping
+build CMakeFiles/Inputshaping.dir/main.cpp.obj: CXX_COMPILER__Inputshaping_Debug E$:/输入整形实现/Inputshaping/main.cpp || cmake_object_order_depends_target_Inputshaping
   DEP_FILE = CMakeFiles\Inputshaping.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++17
   OBJECT_DIR = CMakeFiles\Inputshaping.dir
@@ -81,7 +81,7 @@ build Inputshaping.exe: CXX_EXECUTABLE_LINKER__Inputshaping_Debug CMakeFiles/Inp
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\28626\Desktop\输入整形实现\Inputshaping\cmake-build-debug && D:\program\JetBrains\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D E:\输入整形实现\Inputshaping\cmake-build-debug && D:\program\JetBrains\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -92,7 +92,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\28626\Desktop\输入整形实现\Inputshaping\cmake-build-debug && D:\program\JetBrains\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SC:\Users\28626\Desktop\输入整形实现\Inputshaping -BC:\Users\28626\Desktop\输入整形实现\Inputshaping\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D E:\输入整形实现\Inputshaping\cmake-build-debug && D:\program\JetBrains\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SE:\输入整形实现\Inputshaping -BE:\输入整形实现\Inputshaping\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -110,7 +110,7 @@ build Inputshaping: phony Inputshaping.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/28626/Desktop/输入整形实现/Inputshaping/cmake-build-debug
+# Folder: E:/输入整形实现/Inputshaping/cmake-build-debug
 
 build all: phony Inputshaping.exe
 

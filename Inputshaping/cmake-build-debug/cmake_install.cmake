@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/28626/Desktop/输入整形实现/Inputshaping
+# Install script for directory: E:/输入整形实现/Inputshaping
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/28626/Desktop/输入整形实现/Inputshaping/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/输入整形实现/Inputshaping/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

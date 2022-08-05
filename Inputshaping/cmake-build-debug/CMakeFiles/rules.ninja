@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = D:\program\JetBrains\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SC:\Users\28626\Desktop\输入整形实现\Inputshaping -BC:\Users\28626\Desktop\输入整形实现\Inputshaping\cmake-build-debug
+  command = D:\program\JetBrains\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SE:\输入整形实现\Inputshaping -BE:\输入整形实现\Inputshaping\cmake-build-debug
   description = Re-running CMake...
   generator = 1
 
